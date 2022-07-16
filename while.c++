@@ -1,13 +1,19 @@
-#include<iostram>
-using namespase std;
-int main(){
-    int a;
-    cin>>a;
-    cout<<a;
-    while(a<100)
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int i, b;
+    cin >> i;
+    cout << "enter till then counting = ";
+    cin >> b;
+
+    while (i <= b)
     {
-  cout<<a;
-  }
-  return 0;
-  
-    
+        cout << i << " ";
+        ++i;
+    }
+
+    return 0;
+}
